@@ -1,0 +1,2 @@
+# This example rule will run the script every 30 minutes, and write logs to the fox.log file
+# */30 * * * * /usr/bin/python3 /home/fox.py >> /home/fox.log 2>&1
